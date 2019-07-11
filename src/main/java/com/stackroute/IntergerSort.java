@@ -7,12 +7,10 @@ public class IntergerSort {
         Scanner sc=new Scanner(System.in);
         System.out.print("Enter the number");
         int number=sc.nextInt();
-        String s = Integer.toString(number);
-        int len=s.length();
         int i=0;
         int temp;
         int sum=0;
-        int[] arr = new int[100];
+        int[] arr = new int[12];
         do {
             arr[i] = number % 10;
             if(arr[i]%2==0){
