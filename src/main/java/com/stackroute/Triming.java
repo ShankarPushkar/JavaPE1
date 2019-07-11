@@ -11,13 +11,15 @@ public class Triming {
             System.out.println("Enter the number");
             int num = sc.nextInt();
             int length=input.length();
-            num-=1;
+            System.out.print(input);
+            for (int i = 0; i <num ; i++) {
+            int temp=num-1;
             do {
-                char result = input.charAt(num);
+                char result = input.charAt(temp);
                 System.out.print(result);
-                num++;
-
-            }while (length!=num);
+                temp++;
+            }while (length!=temp);
         }
     }
+}
 
