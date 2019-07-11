@@ -9,7 +9,7 @@ public class CharacterClassification {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter 0 when you want to exit");
         do {
-            System.out.println("Enter the Character");
+            System.out.println("Enter the character");
             c = sc.next().charAt(0);
             boolean check1 = Character.isDigit(c);
             if (check1) System.out.println("This is a number");
