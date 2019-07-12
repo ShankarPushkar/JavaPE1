@@ -11,29 +11,45 @@ public class PalindromeTest {
 
     @Before
     public void setUp() {
-        palindrome=new Palindrome();
+        //arrange
+        palindrome = new Palindrome();
     }
 
     @After
     public void tearDown() throws Exception {
-        palindrome=null;
+        palindrome = null;
     }
 
     @Test
     public void GivesNumberShouldReturnSumIsLessPalindrome() {
-        String actualResult=palindrome.palindromeChecker(12321);
-        assertEquals("The Number is Palindrome and the sum is less than 25",actualResult);
+        //act
+        String actualResult = palindrome.palindromeChecker(12321);
+        //assert
+        assertEquals("The Number is Palindrome and the sum is less than 25", actualResult);
     }
 
     @Test
     public void GivesNumberShouldReturnSumIsMorePalindrome() {
-        String actualResult=palindrome.palindromeChecker(2468642);
-        assertEquals("The Number is Palindrome and the sum is more than 25",actualResult);
+        //act
+        String actualResult = palindrome.palindromeChecker(2468642);
+        //assert
+        assertEquals("The Number is Palindrome and the sum is more than 25", actualResult);
     }
+
     @Test
     public void GivesNumberShouldReturnNotPalindrome() {
-        String actualResult=palindrome.palindromeChecker(2418642);
-        assertEquals("The Number is not a palindrome",actualResult);
+        //act
+        String actualResult = palindrome.palindromeChecker(2418642);
+        //assert
+        assertEquals("The Number is not a palindrome", actualResult);
+    }
+
+    @Test
+    public void GivenZerorShouldReturnError() {
+        //act
+        String actualResult = palindrome.palindromeChecker(0);
+        //assert
+        assertEquals("Error! Don't input Zero", actualResult);
     }
 
 }

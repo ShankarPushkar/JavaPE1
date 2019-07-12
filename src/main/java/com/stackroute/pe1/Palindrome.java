@@ -3,6 +3,7 @@ package com.stackroute.pe1;
 public class Palindrome {
     public String palindromeChecker(int number)
     {
+        if (number==0)return ("Error! Don't input Zero");
         int remain;
         int reverse=0;
         int sum=0;
