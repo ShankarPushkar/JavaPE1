@@ -1,12 +1,10 @@
-package com.stackroute;
+package com.stackroute.pe1;
 import java.util.Scanner;
 
 
 public class IntergerSort {
-    public static void main(String[] args) {
-        Scanner sc=new Scanner(System.in);
-        System.out.print("Enter the number");
-        int number=sc.nextInt();
+    public String integerSorter(int number) {
+
         int i=0;
         int temp;
         int sum=0;
@@ -32,13 +30,9 @@ public class IntergerSort {
                 }
             }
         }
-        for(int j=0;j<i;j++){
-            System.out.print(arr[j]);
-        }
-        System.out.println("\nsum of even numbers "+sum);
         if(sum>15){
-            System.out.println("True");
+            return ("True");
         }else
-            System.out.println("False");
+            return ("False");
     }
 }
