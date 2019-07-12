@@ -1,6 +1,7 @@
 package com.stackroute.pe1;
 
 import org.junit.After;
+import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
 
@@ -19,24 +20,27 @@ public class PatternTest {
     @After
     public void tearDown(){
         //arrange
-        System.out.println("Inside Before");
+        System.out.println("Inside After");
         this.pattern= null;
     }
 
-//    @Test
-//    public void givenAInputShouldReturnPatern() {
-//        //act
-//        int actualResult=pattern.patternBuider(2);
-//        //assert
-//        assertEquals(122,actualResult);
-//
-//    }
+    @Test
+    public void givenAInputShouldReturnPatern() {
+        //act
+        int checker[] = {1,2,2};
+
+        int[] actualResult=pattern.patternBuider(2);
+        //assert
+        Assert.assertArrayEquals(checker,actualResult);
+
+    }
     @Test
     public void givenZeroShouldReturnZero() {
         //act
-        int actualResult=pattern.patternBuider(0);
+        int[] checker=new int[10];
+        int[] actualResult=pattern.patternBuider(0);
         //assert
-        assertEquals(0,actualResult);
+        assertArrayEquals(checker,actualResult);
 
     }
 }
