@@ -7,16 +7,26 @@ import org.junit.Test;
 import static org.junit.Assert.*;
 
 public class IntergerSortTest {
+    IntergerSort intergerSort;
 
     @Before
-    public void setUp() throws Exception {
+    public void setUp() {
+        intergerSort=new IntergerSort();
     }
 
     @After
-    public void tearDown() throws Exception {
+    public void tearDown(){
+        intergerSort=null;
     }
 
     @Test
-    public void integerSorter() {
+    public void givenNumberShouldReturnFalseOutput() {
+        String actualResult=intergerSort.integerSorter(12345);
+        assertEquals("False",actualResult);
+    }
+    @Test
+    public void givenNumberShouldReturnTrueOutput() {
+        String actualResult=intergerSort.integerSorter(1888888);
+        assertEquals("True",actualResult);
     }
 }
