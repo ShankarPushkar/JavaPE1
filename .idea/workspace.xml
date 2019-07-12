@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="74e83c1f-7964-44a5-9bc7-d4cd58f47ea3" name="Default Changelist" comment="Added lib again">
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/stackroute/pe1/IntergerSortTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/stackroute/pe1/IntergerSortTest.java" afterDir="false" />
+    <list default="true" id="74e83c1f-7964-44a5-9bc7-d4cd58f47ea3" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/stackroute/pe1/PalindromeTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/stackroute/pe1/Palindrome.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/stackroute/pe1/Palindrome.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,6 +18,15 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/stackroute/pe1/Triming.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-22">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/stackroute/pe1/IntergerSort.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-506">
@@ -24,17 +35,40 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/stackroute/pe1/IntergerSortTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="307">
-              <caret line="24" column="43" selection-start-line="24" selection-start-column="43" selection-end-line="24" selection-end-column="43" />
+            <state relative-caret-position="287">
+              <caret line="31" column="1" lean-forward="true" selection-start-line="31" selection-start-column="1" selection-end-line="31" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#237#238#0" expanded="true" />
                 <element signature="e#268#269#0" expanded="true" />
                 <element signature="e#324#325#0" expanded="true" />
                 <element signature="e#351#352#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/stackroute/pe1/Palindrome.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="23" column="47" selection-start-line="23" selection-start-column="17" selection-end-line="23" selection-end-column="47" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/stackroute/pe1/PalindromeTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="35" column="52" selection-start-line="35" selection-start-column="52" selection-end-line="35" selection-end-column="52" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#231#232#0" expanded="true" />
+                <element signature="e#273#274#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -66,6 +100,8 @@
       <list>
         <option value="$PROJECT_DIR$/src/main/java/com/stackroute/pe1/IntergerSort.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/stackroute/pe1/IntergerSortTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/stackroute/pe1/Palindrome.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/stackroute/pe1/PalindromeTest.java" />
       </list>
     </option>
   </component>
@@ -112,6 +148,35 @@
             </path>
             <path>
               <item name="First_Day" type="b2602c69:ProjectViewProjectNode" />
+              <item name="First_Day" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="pe1" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="First_Day" type="b2602c69:ProjectViewProjectNode" />
+              <item name="First_Day" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="First_Day" type="b2602c69:ProjectViewProjectNode" />
+              <item name="First_Day" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="First_Day" type="b2602c69:ProjectViewProjectNode" />
+              <item name="First_Day" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="pe1" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="First_Day" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
@@ -155,7 +220,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.IntergerSortTest.givenNumberShouldReturnTrueOutput">
+  <component name="RunManager" selected="JUnit.PalindromeTest">
     <configuration name="IntergerSortTest.givenNumberShouldReturnSumOutput" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JavaPE1" />
       <extension name="coverage">
@@ -184,6 +249,21 @@
       <option name="MAIN_CLASS_NAME" value="com.stackroute.pe1.IntergerSortTest" />
       <option name="METHOD_NAME" value="givenNumberShouldReturnTrueOutput" />
       <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PalindromeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JavaPE1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.stackroute.pe1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.stackroute.pe1" />
+      <option name="MAIN_CLASS_NAME" value="com.stackroute.pe1.PalindromeTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -237,6 +317,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.PalindromeTest" />
         <item itemvalue="JUnit.IntergerSortTest.givenNumberShouldReturnTrueOutput" />
         <item itemvalue="JUnit.IntergerSortTest.givenNumberShouldReturnSumOutput" />
       </list>
@@ -253,13 +334,29 @@
       <option name="presentableId" value="Default" />
       <updated>1562839885692</updated>
     </task>
+    <task id="LOCAL-00001" summary="Added IntegerSort Test and made changes to IntegerSort Java files">
+      <created>1562911847277</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1562911847277</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="IntergerSortTest_givenNumberShouldReturnSumOutput - 2019.07.12 at 11h 38m 36s.xml">
+      <configuration name="IntergerSortTest.givenNumberShouldReturnSumOutput" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="IntergerSortTest_givenNumberShouldReturnTrueOutput - 2019.07.12 at 11h 39m 19s.xml">
+      <configuration name="IntergerSortTest.givenNumberShouldReturnTrueOutput" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="70" y="27" width="1296" height="741" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2448" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2448" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -267,13 +364,13 @@
       <window_info id="UI Designer" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Find" order="1" visible="true" weight="0.3289256" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.21652892" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.3289256" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.3289256" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -316,7 +413,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Added lib again" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added lib again" />
+    <MESSAGE value="Added IntegerSort Test and made changes to IntegerSort Java files" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added IntegerSort Test and made changes to IntegerSort Java files" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/java/com/stackroute/CharacterClassification.java" />
@@ -337,16 +435,42 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/stackroute/pe1/Triming.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-22">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/stackroute/pe1/Palindrome.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="23" column="47" selection-start-line="23" selection-start-column="17" selection-end-line="23" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/stackroute/pe1/IntergerSortTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="307">
-          <caret line="24" column="43" selection-start-line="24" selection-start-column="43" selection-end-line="24" selection-end-column="43" />
+        <state relative-caret-position="287">
+          <caret line="31" column="1" lean-forward="true" selection-start-line="31" selection-start-column="1" selection-end-line="31" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#237#238#0" expanded="true" />
             <element signature="e#268#269#0" expanded="true" />
             <element signature="e#324#325#0" expanded="true" />
             <element signature="e#351#352#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/stackroute/pe1/PalindromeTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="35" column="52" selection-start-line="35" selection-start-column="52" selection-end-line="35" selection-end-column="52" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#231#232#0" expanded="true" />
+            <element signature="e#273#274#0" expanded="true" />
           </folding>
         </state>
       </provider>
