@@ -10,23 +10,25 @@ public class CharacterClassificationTest {
     CharacterClassification characterClassification;
     @Before
     public void setUp() {
+
         this.characterClassification=new CharacterClassification();
     }
 
     @After
     public void tearDown(){
+
         this.characterClassification=null;
     }
 
     @Test
-    public void GivenANumberShouldReturnMessage() {
+    public void GivenANumberShouldReturnNumberMessage() {
         //act
         String actualResult=characterClassification.characterClassifier('1');
         //assert
         assertEquals("This is number",actualResult);
     }
     @Test
-    public void GivenASymbolShouldReturnMessage() {
+    public void GivenASymbolShouldReturnSymbolMessage() {
         //act
         String actualResult=characterClassification.characterClassifier('!');
         //assert
