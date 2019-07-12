@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="74e83c1f-7964-44a5-9bc7-d4cd58f47ea3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/stackroute/pe1/VowelTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/stackroute/pe1/Vowel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/stackroute/pe1/Vowel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/stackroute/pe1/GuessNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/stackroute/pe1/GuessNumber.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,35 +16,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/stackroute/pe1/GuessNumber.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="198">
+              <caret line="9" column="30" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/stackroute/pe1/StringReverse.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/stackroute/pe1/GuessNumberTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="88">
-              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/stackroute/pe1/Vowel.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="154">
-              <caret line="16" column="38" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="38" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/stackroute/pe1/VowelTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="353">
-              <caret line="29" column="31" selection-start-line="29" selection-start-column="31" selection-end-line="29" selection-end-column="31" />
-              <folding>
-                <element signature="e#216#217#0" expanded="true" />
-                <element signature="e#248#249#0" expanded="true" />
-                <element signature="e#289#290#0" expanded="true" />
-                <element signature="e#309#310#0" expanded="true" />
-              </folding>
+              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -69,8 +56,11 @@
         <option value="$PROJECT_DIR$/src/test/java/com/stackroute/pe1/IntergerSortTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/stackroute/pe1/Palindrome.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/stackroute/pe1/PalindromeTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/stackroute/pe1/Vowel.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/stackroute/pe1/VowelTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/stackroute/pe1/Vowel.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/stackroute/pe1/CharacterClassification.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/stackroute/pe1/CharacterClassificationTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/stackroute/pe1/GuessNumber.java" />
       </list>
     </option>
   </component>
@@ -351,7 +341,21 @@
       <option name="project" value="LOCAL" />
       <updated>1562912964959</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Added VowelTest and made changes to Vowel Java files">
+      <created>1562913543075</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1562913543075</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Added CharacterClassification and made changes to CharacterClassification Java files">
+      <created>1562913702118</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1562913702118</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -367,12 +371,18 @@
     <history-entry file="VowelTest_givenStringShouldReturnVowel - 2019.07.12 at 12h 07m 35s.xml">
       <configuration name="VowelTest.givenStringShouldReturnVowel" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="VowelTest_givenStringShouldReturnConsonant - 2019.07.12 at 12h 08m 05s.xml">
+      <configuration name="VowelTest.givenStringShouldReturnConsonant" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="VowelTest_givenStringShouldReturnConsonant - 2019.07.12 at 12h 08m 24s.xml">
+      <configuration name="VowelTest.givenStringShouldReturnConsonant" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="70" y="27" width="1296" height="741" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2448" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2448" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -381,7 +391,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3289256" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.21652892" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.21652892" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -431,7 +441,9 @@
     <MESSAGE value="Added lib again" />
     <MESSAGE value="Added IntegerSort Test and made changes to IntegerSort Java files" />
     <MESSAGE value="Added Palindrome Test and made changes to Palindrome Java files" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Palindrome Test and made changes to Palindrome Java files" />
+    <MESSAGE value="Added VowelTest and made changes to Vowel Java files" />
+    <MESSAGE value="Added CharacterClassification and made changes to CharacterClassification Java files" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added CharacterClassification and made changes to CharacterClassification Java files" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/java/com/stackroute/CharacterClassification.java" />
@@ -506,22 +518,74 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/stackroute/pe1/Vowel.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/stackroute/pe1/TrimingTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="16" column="38" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="38" />
+        <state relative-caret-position="88">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/stackroute/pe1/CharacterClassification.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="15" column="5" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/stackroute/pe1/VowelTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="353">
+        <state relative-caret-position="400">
           <caret line="29" column="31" selection-start-line="29" selection-start-column="31" selection-end-line="29" selection-end-column="31" />
           <folding>
             <element signature="e#216#217#0" expanded="true" />
-            <element signature="e#248#249#0" expanded="true" />
+            <element signature="e#249#250#0" expanded="true" />
             <element signature="e#289#290#0" expanded="true" />
-            <element signature="e#309#310#0" expanded="true" />
+            <element signature="e#315#316#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/stackroute/pe1/Vowel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="19" column="41" selection-start-line="19" selection-start-column="32" selection-end-line="19" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/stackroute/pe1/CharacterClassificationTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="155">
+          <caret line="30" column="46" selection-start-line="30" selection-start-column="46" selection-end-line="30" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/stackroute/pe1/ConditionalCheckTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-343">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/stackroute/pe1/ConditionalCheck.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/stackroute/pe1/GuessNumberTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/stackroute/pe1/GuessNumber.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="30" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
