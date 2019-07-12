@@ -7,25 +7,32 @@ import org.junit.Test;
 import static org.junit.Assert.*;
 
 public class IntegerSumTest {
-IntegerSum integerSum;
+    IntegerSum integerSum;
+
     @Before
     public void setUp() {
-        integerSum=new IntegerSum();
+        //arrange
+        integerSum = new IntegerSum();
     }
 
     @After
     public void tearDown() {
-        integerSum=null;
+        integerSum = null;
     }
 
     @Test
     public void givenInputZeroShouldReturnZero() {
-        int actualResult=integerSum.integerAdd(2,0);
-        assertEquals(0,actualResult);
+        //act
+        int actualResult = integerSum.integerAdd(2, 0);
+        //assert
+        assertEquals(0, actualResult);
     }
+
     @Test
     public void givenInputShouldReturnSum() {
-        int actualResult=integerSum.integerAdd(2,2);
-        assertEquals(4,actualResult);
+        //act
+        int actualResult = integerSum.integerAdd(2, 2);
+        //assert
+        assertEquals(4, actualResult);
     }
 }

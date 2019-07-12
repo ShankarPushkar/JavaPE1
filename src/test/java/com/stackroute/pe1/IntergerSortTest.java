@@ -11,22 +11,28 @@ public class IntergerSortTest {
 
     @Before
     public void setUp() {
-        intergerSort=new IntergerSort();
+        //arrange
+        intergerSort = new IntergerSort();
     }
 
     @After
-    public void tearDown(){
-        intergerSort=null;
+    public void tearDown() {
+        intergerSort = null;
     }
 
     @Test
     public void givenNumberShouldReturnFalseOutput() {
-        String actualResult=intergerSort.integerSorter(12345);
-        assertEquals("False",actualResult);
+        //act
+        String actualResult = intergerSort.integerSorter(12345);
+        //assert
+        assertEquals("False", actualResult);
     }
+
     @Test
     public void givenNumberShouldReturnTrueOutput() {
-        String actualResult=intergerSort.integerSorter(1888888);
-        assertEquals("True",actualResult);
+        //act
+        String actualResult = intergerSort.integerSorter(1888888);
+        //assert
+        assertEquals("True", actualResult);
     }
 }
