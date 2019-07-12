@@ -4,7 +4,8 @@ import java.util.Scanner;
 
 public class StringReverse {
     public String stringReverser(String input) {
-        String reverse=""
+        if (input==null)return ("Null sent");
+        String reverse="";
         int length=input.length();
         length-=1;
         do {

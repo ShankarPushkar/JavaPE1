@@ -25,4 +25,12 @@ public class StringReverseTest {
         //assert
         assertEquals("rakhsup",actualResult);
     }
+    @Test
+    public void givenNullShouldReturnError() {
+        //act
+        String actualResult=stringReverse.stringReverser(null);
+        //assert
+        assertEquals("Null sent",actualResult);
+    }
+
 }
